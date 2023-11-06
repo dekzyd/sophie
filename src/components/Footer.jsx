@@ -1,8 +1,9 @@
+import Featured from "./Featured";
+
 const Footer = () => {
   return (
-    <div>
-      Footer
-      <p>featured in</p>
+    <div className="align-element">
+      <Featured />
       <p>company info</p>
       <hr />
       <p>legal copyright</p>
